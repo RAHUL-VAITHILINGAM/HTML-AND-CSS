@@ -1,0 +1,259 @@
+*
+{
+    margin:0;
+    padding:0;
+}
+.topbar
+{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.37);
+    display: flex;
+    justify-content: space-between;
+}
+.menu  
+{
+    padding:30px 0px 30px 30px;
+    
+    width:50%;
+}
+.menu ul 
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+.menu ul li 
+{
+    list-style: none;
+    text-decoration: none;
+    
+}
+.menu ul li a 
+{
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: rgb(73, 4, 4);
+}
+.heading
+{
+    padding:20px 20px 20px 70px;
+}
+.sidebar 
+{
+    display:flex;
+    justify-content: space-around;
+    width:100%;
+    margin-top: 5rem;
+}
+.sidebar1 figure img 
+{
+ width:500px;
+ height: 400px;
+ background-size: cover;   
+ background-position: center;
+ box-shadow: 10px 5px 10px black;
+}
+.sidebar2 form 
+{
+    width:500px;
+    height:400px;
+    border:1px solid rgba(0, 0, 0, 0.226);
+}
+.login-head
+{
+    padding: 50px;
+    text-align: center;
+    background:rgba(255, 235, 205, 0.37)
+}
+.textfield
+{
+display: flex;
+justify-content: space-around;
+margin-top: 30px;
+}
+.textfield label
+{
+    font-size: 20px;
+}
+.textfield input
+{
+    height: 30px;
+    padding: 0 0 0 10px;
+}
+.button 
+{
+    text-align: center;
+    margin-top: 45px;
+}
+.button button 
+{
+    padding: 5px;
+    font-weight: bold;
+}
+.items 
+{
+    margin:10px;
+}
+.items h1 
+{
+    text-align: center;
+    color: red;
+}
+.fruits 
+{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid gray;
+    padding: 0 0 15px 0;
+}
+.fruits-items 
+{
+    width:150px;
+    height:200px;
+    box-shadow: 1px 1px 5px ;
+}
+.fruits-items img 
+{
+    width: 150px;
+    height: 150px;
+    background-position: center;
+    background-size: cover;
+}
+.fruits-items h3 
+{
+    text-align: center;
+    color: yellowgreen;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.part 
+{
+    display: flex;
+    padding: 20px;
+}
+.part h1 
+{
+font-family: sans-serif;
+color: brown;
+letter-spacing: 2px;
+font-weight: normal;
+}
+.part ul li 
+{
+    font-size: 20px;
+    font-family: 'Gill Sans';
+    font-weight: bold;
+}
+.part1 p 
+{
+    font-size: 22px;
+    line-height: 1.4;
+    font-family: 'Times New Roman';
+    color: rgba(0, 0, 0, 0.815);
+}
+.part1
+{
+    padding: 20px 30px 20px 40px;
+}
+.part2 
+{
+    background:rgba(95, 158, 160, 0.274);
+    padding: 20px 20px 20px 40px;
+}
+.part2 ol li span 
+{
+    font-weight: bold;
+}
+.part2 ol li 
+{
+    font-weight: 100;
+ color: rgba(0, 0, 0, 0.801);
+    font-size: 20px;
+    font-family: Arial;
+}
+.flex 
+{
+    display: flex;
+    justify-content: space-around;
+}
+.unorder 
+{
+    padding: 20px;
+}
+.fruitsveg img 
+{
+    width:350px;
+    height:250px;
+}
+.order 
+{
+    padding: 20px;
+}
+.order li 
+{
+    line-height: 1.5;
+}
+.bottom 
+{
+    position:absolute;
+    right: 5%;
+    top:95%;
+    
+}
+.form 
+{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 80%;
+   
+}
+.labelinput 
+{
+    display: flex;
+    justify-content: space-between;
+    
+    width: 25vw;
+}
+.form label 
+{
+    font-size: 20px;
+    font-weight: bold;
+}
+.form input
+{
+    height: 25px;
+    padding-left: 10px;
+}
+.form textarea
+{
+    padding-left: 10px;
+    width:184px;
+    height: 45px;
+}
+.form form 
+{
+    margin-top: 20px;
+    padding: 10px;
+    box-shadow: 1px 1px 5px;
+}
+.form h1 
+{
+    text-align: center;
+}
+.form button
+{
+text-transform: uppercase;
+padding:5px;
+float: right;
+}
+.form h1 
+{
+    font-family: Arial;
+}
+.input select 
+{
+    width:184px;
+    text-align: center;
+    background: rgba(100, 148, 237, 0.233);
+}
