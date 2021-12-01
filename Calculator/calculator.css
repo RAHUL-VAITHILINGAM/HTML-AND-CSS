@@ -1,0 +1,103 @@
+*
+{
+margin:0;
+	padding:0;
+}
+body 
+{
+display:flex;
+	justify-content:center;
+	align-items:center;
+	height:100vh;
+}
+.all 
+{
+box-shadow:1px 1px 1px 3px;
+	height:400px;
+	width:300px;
+border-radius:20px;
+}
+.buttons 
+{
+	padding:0 10px 0 10px;
+display:flex;
+align-items:center;
+	justify-content:space-evenly;
+	height:270px;
+width:300px;
+}
+.numbers button 
+{
+width:50px;	
+	height:50px;
+	border-radius:50%;
+margin-top:2px;
+background-color:white;
+box-shadow:inset 25px 25px 40px white,inset -25px 5px 42px black;
+}
+.numbers button:hover
+{
+background-color:black;
+color:white;
+}
+.numbers
+{
+padding:0 0 0 5px;
+display:grid;
+grid-template-columns:auto auto auto;
+height:250px;
+width:275px;
+border-right:1px solid;
+}
+.symbols
+{	
+display:grid;
+height:250px;
+width:150px;
+grid-template-columns:40px 40px;
+padding-left:10px;
+}
+.symbols button 
+{
+margin-top:3px;
+width:50px;	
+	height:75px;
+font-size:16px;
+}
+.all 
+{
+display:flex;
+flex-direction:column;
+justify-content:space-between;
+align-items:center;
+}
+.symbols .equal 
+{
+width:88px
+}
+.display
+{
+border-bottom:1px solid;
+width:100%;
+height:130px;
+}
+.display input 
+{
+width:90%;
+margin-top:14px;
+margin-left:15px;
+height:50px;
+border:none;
+padding:10px;
+text-align:end;
+font-size:20px;
+letter-spacing:1.2;
+font-weight:bold;
+}
+.buttons input 
+{
+width:50px;	
+	height:50px;
+margin-top:2px;
+	border-radius:50%;
+}

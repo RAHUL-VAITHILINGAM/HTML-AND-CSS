@@ -1,0 +1,72 @@
+<html>
+	<head>
+		<title>Calculator</title>
+		<link rel="stylesheet" href="calculator.css">
+		</head>
+	<body>
+		<div class="all">
+			<div class="display">
+				<input type="text" id="screen">
+<input type="text" id="screen1" placeholder="0">
+				</div>
+			<div class="buttons">
+				<div class="numbers">
+				<button onclick="cl()">C</button>
+				<button onclick="display(1)">1</button>
+				<button onclick="display(2)">2</button>
+				<button onclick="display(3)">3</button>
+				<button onclick="display(4)">4</button>
+				<button onclick="display(5)">5</button>
+				<button onclick="display(6)">6</button>
+				<button onclick="display(7)">7</button>
+				<button onclick="display(8)">8</button>
+				<button onclick="display(9)">9</button>
+				<button onclick="display(0)">0</button>
+				<button onclick="display('.')">.</button>
+				</div>
+				<div class="symbols">
+				<button onclick="del()">DEL</button>
+				<button onclick="display('+')">+</button>
+				<button onclick="display('-')">-</button>
+				<button onclick="display('*')">*</button>
+				<button onclick="display('/')">/</button>
+				<button onclick="check()">=</button>
+					</div>
+				</div>
+			</div>
+		</body>
+	<script>
+var screen = document.getElementById("screen");
+var screen1 = document.getElementById("screen1");
+function display(num)
+{
+screen.value = screen.value +""+ num ;
+}
+function cl()
+{
+screen.value = "";
+screen1.value = "";
+}
+function del()
+{
+
+}
+function check()
+{
+try
+{
+screen1.value = "Ans = "+ eval(screen.value);
+
+}
+catch(e)
+{
+screen1.value = "Error";
+}
+}
+function del()
+{
+screen.value = screen.value.slice(0,-1);
+}
+
+		</script>
+</html>
